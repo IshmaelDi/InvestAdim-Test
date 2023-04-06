@@ -58,43 +58,4 @@ Output File Format
 The output file should contain a single line, with one of the following 3 possibilities:
 The name of the winner and their score separated by a colon. (Base Value only if there's a clear winner
 OR Base + Suit Value if there was a broken tie)
-Example:
-Player1:35
-A comma separated list of winners in the case of a tie that can't be broken and their score separated by
-a colon. (Base + Suit Value)
-Example:
-Player1,Player2:38
-"Exception:[reason]" if the input file or its contents had any issues (validate the input).
-Example:
-Exception:<Some nice reason why the input is wrong.>
-Examples
-Example Input
-Player1:9H,AH,10S,AH,9S
-Player2:3D,4C,6S,8C,AC
-Player3:7C,7C,3H,5S,10D
-Player4:4H,5S,KH,KC,QS
-Player5:8H,4D,2D,4S,9D
-Player6:10D,6C,6C,QD,8D
-Player7:6D,8S,3S,2H,10H
-Example Output
-Player1:50
-Example Input
-Player1:3S,5C,5S,5C,2S
-Player2:9C,QH,7D,JH,9C
-Player3:5D,KH,QH,8H,8D
-Player4:10S,3C,6H,2H,AC
-Player5:7S,KC,7C,10D,AS
-Player6:7H,4D,KH,AS,2D
-Player7:3D,8S,2D,JD,2H
-Example Output
-Player5:51
-Example Input
-Player1:3C,3C,2S,4H,KH
-Player2:QD,8D,7D,6C,2H
-Player3:10H,9D,8H,AH,KS
-Player4:JC,JC,KS,8C,8D
-Player5:JD,5D,6D,5S,AD
-Player6:QD,AC,KD,3S,JH
-Player7:6S,4C,8S,KD,4S
-Example Output
-Player3,Player4:51
+
